@@ -105,6 +105,19 @@ li a {
     float: left;
     width: 33.33%;
     padding: 20px;
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: 'Georgia', 'Times New Roman', serif;
+  }
+
+  .port-img-text {
+    position: absolute;
+    width: 77%;
+    padding: 20px;
+    bottom: 30px;
+    margin: auto;
+    background-color: #4aaaa5;
   }
   
   .row::after {
