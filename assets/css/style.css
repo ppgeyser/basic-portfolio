@@ -74,7 +74,41 @@ li a {
     width: 960px;
     position: relative;
     margin: auto;
+    padding-bottom: 20px;
     top: 125px;
     background-color: #ffffff;
 }
 
+.subheading {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 28px 12px;
+    margin: 20px;
+    border-bottom-color: #adadad;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
+
+.content {
+    margin: 20px;
+    line-height: 1.5;
+}
+
+.row {
+    margin: 20px;
+    line-height: 1.5;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 20px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
